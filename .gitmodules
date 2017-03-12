@@ -1,0 +1,12 @@
+[submodule "testing"]
+	path = testing
+	url = https://github.com/greenpooling/testing
+[submodule "api"]
+	path = api
+	url = https://github.com/greenpooling/api
+[submodule "hybrid-app"]
+	path = hybrid-app
+	url = https://github.com/greenpooling/hybrid-app
+[submodule "agents"]
+	path = agents
+	url = https://github.com/greenpooling/agents
