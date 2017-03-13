@@ -11,3 +11,12 @@ The aims of this project are: to investigate the factors for and against adoptio
 The major discovery of the evaluation was a clear bottleneck in the Java Agent Development Framework (JADE) due to the directory facilitator offering significantly worse scaling than the rest of the framework in systems high on communication. This problem has previously been solved through search caching per container – a solution which is not applicable for a truly scalable carpooling system. The paper proceeds to provide a novel solution to this problem which builds upon the previous work.
 
 In conclusion, agent technology is suitable to carpooling solutions due to the high distributability of the problem and the clear matching of the agent lifecycle to the lifecycle of the carpool negotiation process. Due to the unforeseen focus on the directory facilitator bottleneck, the paper concludes with a wealth of further work which would build upon the work presented in this paper.
+
+## Cloning (Submodules)
+
+When cloning this repository, the submodules will not be checked out by default. You must initialise and update them as follows:
+
+    git submodule init
+    git submodule update --recursive --remote
+
+This should result in the submodules being checked out at the 0.1 tag.
